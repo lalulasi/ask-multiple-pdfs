@@ -11,11 +11,11 @@ from htmlTemplates import css, bot_template, user_template
 from langchain.llms import HuggingFaceHub
 import os
 
-#os.environ["AZURE_OPENAI_API_KEY"] = "9054ab6c2f4b45da9d51cc0ea2c6993a"
+#os.environ["AZURE_OPENAI_API_KEY"] = "openaikey"
 #os.environ["AZURE_OPENAI_ENDPOINT"] = "https://lalulasi3.openai.azure.com/"
 os.environ["OPENAI_API_TYPE"] = "azure"
 os.environ["OPENAI_API_BASE"] = "https://lalulasi3.openai.azure.com/"
-os.environ["OPENAI_API_KEY"] = "9054ab6c2f4b45da9d51cc0ea2c6993a"
+os.environ["OPENAI_API_KEY"] = "openaikey"
 os.environ["OPENAI_API_VERSION"] = "2023-09-01-preview"
 
 
